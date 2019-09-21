@@ -1,0 +1,46 @@
+.back {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url(/img/2.jpg) center center no-repeat;
+    background-size: 100% 100%;
+}
+.titulo {
+    font-weight: bolder;
+    color: #0f3356;
+}
+.backicon{
+    color:#0f3356;
+}
+.thumb ol{
+    z-index:2;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.thumb img{
+    width:200px;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #202020;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0F3356;
+  }
+  .butao {
+    color: #fff;
+    background-color: #0f3356;
+  }
+  .butao:hover {
+    color: #0f3356;
+    background-color: #fff;
+    border: 2px solid #0f3356;
+  }
